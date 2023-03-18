@@ -1,0 +1,9 @@
+<div class="cats-list-route-wrapper">
+    <h1 class="header">Cats list</h1>
+    <div class="list-container">
+        <app-cat-item
+            *ngFor="let cat of cats$ | async"
+            [cat]="cat"
+        ></app-cat-item>
+    </div>
+</div>

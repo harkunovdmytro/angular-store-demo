@@ -1,0 +1,36 @@
+.cat-item-wrapper {
+  padding: 10px;
+  display: block;
+  color: black !important;
+  text-decoration: none !important;
+  text-align: center;
+
+  img {
+    margin: 0 auto 20px;
+    height: 200px;
+    padding: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #bbb;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+
+    &:hover {
+      border-style: dashed;
+      background: #757575;
+    }
+
+    &:active {
+      border-style: solid;
+      background: #e0dede;
+    }
+  }
+}

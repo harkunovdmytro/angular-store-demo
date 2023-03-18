@@ -1,0 +1,17 @@
+.detail-view-wrapper {
+  display: block;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+
+  .header {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
